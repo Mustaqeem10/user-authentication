@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E5E5E5;
+    height: 100%;
+    overflow: hidden;
+}
+
+.registration {
+    font-family: "Poppins";
+}
+
+.registration h1 {
+    color: #0093C8;
+    text-align: center;
+    font-weight: 400;
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+.registration form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration form input {
+    width: 300px;
+    padding: 13px 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    background: #FFFFFF;
+    border: 1px solid #91AFBA;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+.registration form input:first-child {
+    margin-top: 34px;
+}
+
+.registration form button {
+    z-index: 99;
+    width: 300px;
+    background-color: #0093C8;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 13px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+
+.registration form button:hover {
+    cursor: pointer;
+}
+
+.registration form p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #242A2C;
+    z-index: 99;
+}
+
+.registration form p a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0093C8;
+    z-index: 99;
+}
+
+.registration form p a:hover {
+    text-decoration: underline;
+}
+
+.registration svg {
+    margin-top: -125px;
+}
+
+#wave1 {
+    position: relative;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+#wave2 {
+    position: relative;
+    margin-top: -283px;
+}
+
